@@ -18,7 +18,7 @@ const experiences = [
     ],
   },
   {
-    company: "Lix",
+    company: "Lix Academy",
     location: "Egypt,cairo .On-site",
     training: "React.js Trainee",
     duration: "August 2025",

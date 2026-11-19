@@ -28,7 +28,7 @@ export default function About() {
   className='custom-class'
 ><h2>&lt;/About&gt;</h2>
 </GlitchText></h2>
-      <div className='w-[90%] bg-white/70 grid grid-cols-1  sm:grid-cols-2 rounded-2xl gap-8 p-15 shadow-2xl'>
+      <div className='w-[90%] bg-white/70 grid grid-cols-1  sm:grid-cols-2 rounded-2xl gap-8 sm:p-15 p-2 shadow-2xl'>
        {/* left */}
       <div>
 <div className='text-black'>
@@ -39,8 +39,8 @@ Building Digital Experiences.
 
 <h2 className='border-l-4 border-white my-2 px-2 text-3xl'>What I Do</h2>
 
-<div className="grid grid-cols-1 sm:grid-cols-2 w-[80%] gap-4">
-  <div className="flex items-center gap-3">
+<div className="grid grid-cols-1 sm:grid-cols-2  w-[80%] gap-4">
+  <div className="flex items-center gap-3 ">
     <CheckCircle2 size={18} className="text-[#0b7b77]" />
     <p >Responsive Web Design</p>
   </div>

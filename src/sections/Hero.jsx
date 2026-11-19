@@ -85,7 +85,7 @@ export default function Hero() {
          <div className="flex flex-wrap gap-3">
   {/* Download CV */}
   <a
-    href="/Merna Amr CV-1.pdf"
+    href="/Merna Amr CV.pdf"
     download
     style={{ backgroundImage: `url(${pic5})` }}
     className="inline-flex items-center justify-center rounded-full bg-cover bg-repeat-x px-4 py-2 text-xs text-white border border-white/30 transition hover:-translate-y-1 hover:bg-black/75 sm:text-sm"
@@ -95,7 +95,7 @@ export default function Hero() {
 
   {/* Preview CV */}
   <a
-    href="/Merna Amr CV-1.pdf"
+    href="/Merna Amr CV.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center justify-center rounded-full bg-cover bg-repeat-x px-4 py-2 text-xs text-white border bg-[#511717] border-white/30 transition hover:-translate-y-1 hover:bg-black/75 sm:text-sm"
