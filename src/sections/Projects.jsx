@@ -4,6 +4,7 @@ import pic1 from "../assets/chinaTaste.png";
 import pic2 from "../assets/Daniel.png";
 import pic3 from "../assets/freshCart.png";
 import pic4 from "../assets/todolist.png"
+import { Code } from "lucide-react";
 
 
 const projects = [
@@ -266,9 +267,9 @@ export default function Projects() {
             href={project.githubLink}
             target="_blank"
             rel="noreferrer"
-            className="flex-1 rounded-lg border border-white/20 px-3 py-2.5 text-center text-sm font-semibold text-white transition hover:bg-white hover:text-black"
+            className="flex gap-0.5 rounded-lg border border-white/20 px-3 py-2.5 text-center text-sm font-semibold text-white transition hover:bg-white hover:text-black"
           >
-            Source Code ↗
+            Source Code <Code />
           </a>
         </div>
       </div>
