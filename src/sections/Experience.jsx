@@ -71,7 +71,7 @@ export default function Experience() {
       &lt;Experience/&gt;
     </GlitchText>
   </h2>
-    <div className="w-[90%]  mx-auto rounded-2xl bg-[#171717]/30 px-15 py-8 backdrop-blur-md">
+    <div className="w-[90%]  mx-auto rounded-2xl bg-[#171717]/30 sm:p-15 p-5 py-8 backdrop-blur-md">
 <p className='text-white border-l-2 px-2 py-5 my-3'>My learning journey and hands-on experience in frontend development .</p>
       <div className="grid grid-cols-1 justify-items-center gap-6 md:grid-cols-2 xl:grid-cols-3">
         {experiences.map((exp, index) => (
